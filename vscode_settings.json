@@ -1,0 +1,56 @@
+{
+    "workbench.colorTheme": "Material Theme Darker",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "editor.minimap.enabled": false,
+    "markdown.preview.openMarkdownLinks": "inEditor",
+    "workbench.editor.enablePreview": false,
+    "files.autoSave": "onWindowChange",
+    "files.autoSaveDelay": 300000,
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true,
+    "breadcrumbs.enabled": true,
+    "explorer.openEditors.visible": 0,
+    "window.title": "${dirty}${activeEditorMedium}${separator}${rootName}",
+    "editor.smoothScrolling": true,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSmoothCaretAnimation": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "workbench.settings.enableNaturalLanguageSearch": false,
+    "eslint.alwaysShowStatus": true,
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        {
+            "language": "typescript",
+            "autoFix": true
+        },
+        {
+            "language": "typescriptreact",
+            "autoFix": true
+        }
+    ],
+    "prettier.eslintIntegration": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "window.zoomLevel": 0,
+    "explorer.confirmDragAndDrop": false,
+    "gitlens.blame.toggleMode": "window",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "editor.folding": false,
+    "explorer.autoReveal": false,
+    "explorer.confirmDelete": false,
+    "workbench.startupEditor": "newUntitledFile"
+}
