@@ -7,7 +7,6 @@
     "git.autofetch": true,
     "editor.minimap.enabled": false,
     "markdown.preview.openMarkdownLinks": "inEditor",
-    "workbench.editor.enablePreview": false,
     "files.autoSave": "onWindowChange",
     "files.autoSaveDelay": 300000,
     "editor.fontFamily": "'Fira Code'",
@@ -34,7 +33,6 @@
             "autoFix": true
         }
     ],
-    "prettier.eslintIntegration": true,
     "[jsonc]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
@@ -52,5 +50,19 @@
     "editor.folding": false,
     "explorer.autoReveal": false,
     "explorer.confirmDelete": false,
-    "workbench.startupEditor": "newUntitledFile"
+    "workbench.startupEditor": "newUntitledFile",
+    "search.useReplacePreview": false,
+    "[python]": {
+
+    },
+    "extensions.ignoreRecommendations": true,
+    "search.exclude": {
+        "**/venv": true
+    },
+    "window.restoreWindows": "all",
+    "files.autoGuessEncoding": true,
+    "files.hotExit": "onExitAndWindowClose",
+    "files.trimFinalNewlines": true,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false
 }
