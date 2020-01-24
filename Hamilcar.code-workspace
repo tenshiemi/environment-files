@@ -1,0 +1,35 @@
+{
+    "folders": [
+        {
+            "name": "ADAPTERS",
+            "path": "Code/data-adapters/adapters/src"
+        },
+        {
+            "name": "DB",
+            "path": "Code/hamilcar/db"
+        },
+        {
+            "name": "INTERNAL API",
+            "path": "Code/hamilcar/components/internal-api/src/app"
+        },
+        {
+            "name": "SHARED",
+            "path": "Code/hamilcar/shared"
+        },
+        {
+            "name": "WORKERS",
+            "path": "Code/hamilcar/components/workers/src"
+        },
+        {
+            "name": "INTEGRATIONS",
+            "path": "Code/hamilcar/components/integrations"
+        },
+        {
+            "name": "HAMILCAR",
+            "path": "Code/hamilcar"
+        },
+    ],
+    "settings": {
+        "files.autoSave": "afterDelay"
+    }
+}
