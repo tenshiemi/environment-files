@@ -4,7 +4,7 @@
 export TERM="screen-256color"
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/emily/.oh-my-zsh"
+export ZSH="<HOME_URL>/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -107,33 +107,7 @@ alias ll='ls -l --color=auto'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-#alias api="gnome-terminal -x bash -c '(tail -n0 -F ~/Code/hamilcar/components/internal-api/log/*)'"
-alias adapt="cd ~/Code/data-adapters/adapters/src/synthetic"
-alias api="tail -n0 -F ~/Code/hamilcar/components/internal-api/log/*"
-alias hamilcar="cd ~/Code/hamilcar"
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 alias pip='pip3'
 alias psg='ps -efw | grep -v grep | grep '
-alias q="psql -h localhost -p 5432 -U hamadmin hamdb" 
-alias rabbit="rabbitmqctl"
-alias rep="cd ~/Code/hamilcar/components/workers; ./200-refresh-account-summaries.sh 2018-09-01 2018-10-01"
-alias rid="/home/emily/Code/dev-tools/bin/rid"
-
-# Aliases for converting between Proto UUID and Python UUID
-alias int2uuid='perl -MUUID::Tiny -e '\''use bigint; @i=split(/,/,<>); $s=sprintf("%X%X",@i); $u=UUID_to_string(string_to_UUID($s)); print "$u\n";'\'''
-alias uuid2int='perl -e '\''use bigint; $s=<>; chomp $s; $s=~tr/-//d; $a = hex substr($s,0,16); $b = hex substr($s,16,16); print "$a,$b\n";'\'''
-
-alias run-dev="/home/emily/Code/dev-tools/bin/rid /home/emily/Code/hamilcar/001-local-runner.py --dev"
-alias syn="cd ~/Code/data-adapters/adapters/src/synthetic/"
-alias workers="tail -n0 -F ~/Code/hamilcar/components/workers/log/*"
-
-
-
-export HAMILCAR_ROOT="/home/emily/Code/hamilcar"
-
-PATH="/home/emily/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/emily/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/emily/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/emily/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/emily/perl5"; export PERL_MM_OPT;
